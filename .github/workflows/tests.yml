@@ -17,4 +17,5 @@ jobs:
           python-version: "3.12"
 
       - name: Run tests
+        working-directory: lab4
         run: python -m unittest discover -s tests -v
